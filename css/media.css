@@ -1,0 +1,65 @@
+/* Md */
+@media (min-width: 768px) {
+    .about img {
+        display: none;
+    }
+
+    .about .feature .free {
+        align-items: center;
+    }
+
+    .landing {
+        height: 600px;
+    }
+
+    .landing .content {
+        top: 40%;
+    }
+
+    .form .content {
+        text-align: center;
+    }
+}
+
+/*  small */
+@media (max-width: 767px) {
+    .story .content p {
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .classes .wooden img {
+        display: none;
+    }
+
+    .classes .wooden,
+    .stuffed {
+        text-align: center;
+        width: 200px;
+    }
+
+    .classes .stuffed img {
+        display: none;
+    }
+
+    .landing .content {
+        width: 400px;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .landing {
+        height: 550px;
+    }
+
+    .form .content {
+        text-align: center;
+    }
+
+    .about .feature .free {
+        align-items: center;
+    }
+
+}
